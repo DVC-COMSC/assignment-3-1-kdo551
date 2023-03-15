@@ -12,9 +12,9 @@ def main():
 
   if n1 < n2 and n1 < n3:
         print (f'{n1} is the smallest number')
-    elif n2 < n1 and n2 < n3:
+  elif n2 < n1 and n2 < n3:
         print (f'{n2} is the smallest number')
-    else:
+  else:
         print (f'{n3} is the smallest number')
   
 if __name__ == '__main__':
